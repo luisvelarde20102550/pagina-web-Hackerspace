@@ -1,0 +1,108 @@
+@CHARSET "ISO-8859-1";
+body {
+    background-image: url(fondo4.jpg);
+    background-attachment:fixed; 
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.imagen{
+    width:700px;
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#select1, #select2, #select3, #select4, #select5, #select6, #select7, #select8, #select9{
+    font-size: 38px;
+    font-style: italic;
+    color: Gainsboro;
+    padding: 10px;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+}
+.texto{
+    font-family:"Arial", Helvetica, sans-serif;
+    color:black;
+}
+#seleccion{
+    position: fixed;
+}
+#cuadro{
+    background-color:rgba(255,255,255,0.7);
+    padding:15px;
+    margin-left:15px;
+    margin-right:15px;
+}
+h1{
+    font-size:45px;
+    text-shadow: 5px 5px 5px #000000;
+    text-align:center;
+    font-family:"Arial", Helvetica, sans-serif;
+    margin: 0px;
+    color: LightGray;
+    width: 100%;
+}
+#titulo{
+    background-color:black;
+    padding:5px;
+    color:Coral;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    text-align:center;
+}
+th,td{
+    padding: 15px;
+    background-color:DimGray; 
+}
+.boton{
+    padding:8px 11px;
+    text-decoration:none;
+    color:White;
+    text-shadow: 5px 5px 5px #000000;
+}
+.boton:hover, .boton:active{
+    text-decoration:none;
+    color:Black;
+    position:relative;
+    top:2px;
+}
+.banner{
+	width: 700px;
+	height: 300px;
+	border: 3px solid red;
+	margin: auto;
+	
+	background-size: 100% 100%;
+	animation: banner 10s infinite; 
+}
+@keyframes banner{
+	0%, 2% {
+		opacity: 0.1;
+	}
+	3%, 30% {
+		background-image: url(Imagenes/ethernetShield.jpg);
+		opacity: 1;
+	}
+	31%, 34% {
+		opacity: 0.1;
+	}
+	35%, 63% {
+		background-image: url(Imagenes/chasisParaRobot.jpg);
+		opacity: 1;
+	}
+	64%, 67% {
+		opacity: 0.1;
+	}
+	68%, 97% {
+		background-image: url(Imagenes/motorRedutorConRueda.jpg);
+		opacity: 1;
+	}
+	98%, 100% {
+		opacity: 0.1;
+	}
+}
