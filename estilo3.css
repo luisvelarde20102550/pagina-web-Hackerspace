@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#263D5C;
+} 
+#cuerpo{
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+}
