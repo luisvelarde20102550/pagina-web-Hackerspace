@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+body {
+    background-color:lavender;
+}
+#informacionPersonal {
+	background-color: powderblue;
+	width: 540px;
+	height: 180px;
+	padding: 10px;
+	margin: auto;
+}
+
+table {
+	margin:auto;
+}
+
+th{
+    background-color:orange;
+    width:100px;
+}
+
+#tdSubmit {
+	text-align: center;
+}
