@@ -7,7 +7,7 @@
 <style type="text/css">
 <%@include file="estilos/estilo-index.css" %>
 </style>
-<title>Bienvenido a HackerSpace</title>
+<title>Bienvenido a HackerSpace2</title>
 </head>
 <body>
 	<div class='cabeza'>
