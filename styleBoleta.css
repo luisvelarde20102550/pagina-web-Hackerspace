@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color:lavender;
+}
+#divDocumento {
+	background-color: lemonchiffon;
+	width: 750px;
+	height: 800px;
+	margin: auto;
+	padding-top: 25px;
+}
+#divImagen {
+	background-color: yellow;
+	float: left;
+	width: 200px;
+	height: 70px;
+}
+#divProductos {
+	padding: 10px;
+	float: left;
+	width: 240px;
+	height: 80px;
+}
+#divDireccion {
+	padding: 10px;
+	float: left;
+	width: 440px;
+	height: 20px;
+}
+
+table, th, td {
+    border: 2px solid indigo;
+}
+table {
+    border-collapse: collapse;
+	margin:auto;
+	width: 700px;
+}
+
+#tdLogo{   
+	width: 450px;
+}
+
+#thDescripcion {
+	width: 420px;
+}
