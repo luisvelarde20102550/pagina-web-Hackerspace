@@ -11,41 +11,56 @@
 </head>
 <body>
 	<div class='cabeza'>
-		<img src='war/Imagenes/hackerspaces.jpg' alt='hackerspace' style='width:1340px;height:350px'>
+		<img src="Imagenes/hacker.jpg" alt='hackerspace' style='width:1340px;height:350px'>
 	</div>
 	<div id='barra'>
-		<ul id='opciones'>
-			<li><a href="descripcion.jsp">¿Que es HackerSpace?</a></li>
-			<li><a href="descripcion.jsp">¿Quienes lo conforman?</a></li>
-			<li><a href="descripcion.jsp">¿Como funciona?</a></li>
-			<li><a href="descripcion.jsp">Login</a></li>					
+		<ul id='opciones'>			
+			<li><a href="index.jsp"></a></li>
+			<li><a href="queeshacker.jsp">¿Que es HackerSpace?</a></li>
+			<li><a href="conforman.jsp">¿Quienes lo conforman?</a></li>
+			<li><a href="login.jsp">Login</a></li>					
 		</ul>
 		<ul id='opciones1'>
-			<li><a href="descripcion.jsp">Promociones</a></li>
-			<li><a href="descripcion.jsp">HackserSchool</a></li>
-			<li><a href="descripcion.jsp">Atohm Store</a></li>
-			<li><a href="descripcion.jsp">Registrate</a></li>					
+			<li><a href="contactenos.jsp">Contactenos</a></li>
+			<li><a href="hackerscholar.jsp">HackserScholar</a></li>
+			<li><a href="atohmStore.jsp">Atohm Store</a></li>
+			<li><a href="formulariohs.jsp">Registrate</a></li>					
 		</ul>	
 	</div>
 	<div id='cuerpo'>
+		<br>
+		<br>
 		<h1>Bienvenidos a HackerSpace</h1>
-		<p>HackerSpace es una organizacion no lucrativa,nuestra meta<br>
-		                   es poder enseñar a jovenes estudiantes lo divertido que <br>
-		                   puede ser estudiar y aplicar los conocimientos de la electronica<br>
-		                   junto con la programacion.</p>
+		<br>
+		<br>
+		<p>
+		Un Hacker Space es un sitio físico donde gente con intereses en ciencia, nuevas<br>
+		tecnologías, y artes digitales o electrónicas se puede conocer, socializar y colaborar.<br>
+		Puede ser visto como un laboratorio de comunidad abierta, un espacio donde gente de<br>
+		diversos trasfondos puede unirse. Pone al alcance de aficionados y estudiantes de<br> 
+		diferentes niveles la infraestructura y ambiente necesarios para desarrollar sus<br> 
+		proyectos tecnológicos. El propósito de un hackspace es concentrar recursos y conocimiento<br>
+		para fomentar la investigación y el desarrollo.<br>
+		<br>
+		La filosofía de Hackerspace es bastante abierta, en teoría cualquiera podría ir,<br>
+		a cualquier hora del día o de la noche y utilizar las instalaciones para crear sus<br>
+		proyectos, ya sea con una sierra eléctrica haciendo una mesa de madera que soñó a las 3<br>
+		de la mañana y se despertó para ir a hacerla, hasta un complejo proyecto de programación<br>
+		o impresión 3D.<br>
+		</p>
 		 
 	</div>
 	<p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="¡CSS Válido!" />
+            alt="Â¡CSS VÃ¡lido!" />
     </a>
     
 	<a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="¡CSS Válido!" />
+        alt="Â¡CSS VÃ¡lido!" />
     </a>
     <a href="http://validator.w3.org/check?uri=referer"><img
       src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
